@@ -1,6 +1,6 @@
-# Options & Volatility Dashboard
+# Options Tools (and such)
 
-A professional Python webapp for options pricing and volatility analysis.
+Python webapp **intended** to be used for options pricing and volatility analysis.
 
 ## Features
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open your browser to `http://localhost:8501` to access the dashboard.
+Open your browser to `http://localhost:8501` to access the dashboard (cringe)
 
 ## Tools Overview
 
