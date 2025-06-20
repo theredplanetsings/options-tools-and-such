@@ -10,14 +10,14 @@ from datetime import datetime, timedelta
 st.set_page_config(page_title="Options & Volatility Dashboard", layout="wide")
 
 def black_scholes_call(S, K, T, r, sigma):
-    """Calculates Black-Scholes call option price"""
+    """Calculate Black-Scholes call option price"""
     d1 = (np.log(S / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
     d2 = d1 - sigma * np.sqrt(T)
     call_price = S * norm.cdf(d1) - K * np.exp(-r * T) * norm.cdf(d2)
     return call_price
 
 def black_scholes_put(S, K, T, r, sigma):
-    """Calculates Black-Scholes put option price"""
+    """Calculate Black-Scholes put option price"""
     d1 = (np.log(S / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
     d2 = d1 - sigma * np.sqrt(T)
     put_price = K * np.exp(-r * T) * norm.cdf(-d2) - S * norm.cdf(-d1)
@@ -37,7 +37,7 @@ def implied_volatility(option_price, S, K, T, r, option_type='call'):
         return np.nan
 
 def option_greeks(S, K, T, r, sigma, option_type='call'):
-    """Calculates option Greeks"""
+    """Calculate option Greeks"""
     d1 = (np.log(S / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
     d2 = d1 - sigma * np.sqrt(T)
     
@@ -203,5 +203,4 @@ def main():
         volatility_surface()
 
 if __name__ == "__main__":
-    main()
     main()
