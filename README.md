@@ -1,26 +1,40 @@
-# Options Tools (and such)
+# Options & Volatility Dashboard
 
-Python webapp **intended** to be used for options pricing and volatility analysis.
+A professional Python webapp for options pricing and volatility analysis.
+
+## 🚀 Live Demo
+
+**[Access the live app here!](https://optionsandsuch.streamlit.app)** 
+
+🎉 **Now live and accessible to anyone worldwide!**
 
 ## Features
 
 1. **Black-Scholes Calculator**: Calculate option prices and Greeks
-2. **Implied Volatility Calculator**: Extract implied volatility from market prices
+2. **Implied Volatility Calculator**: Extract implied volatility from market prices  
 3. **Volatility Surface**: Visualize 3D volatility surfaces
 
-## Installation
+## 🌐 Deployment Status
+
+✅ **Successfully deployed on Streamlit Community Cloud!**  
+🌍 **Live URL**: [optionsandsuch.streamlit.app](https://optionsandsuch.streamlit.app)  
+🎯 **Status**: Ready for public use
+
+## 💻 Local Development
+
+### Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+### Usage
 
 ```bash
 streamlit run app.py
 ```
 
-Open your browser to `http://localhost:8501` to access the dashboard (cringe)
+Open your browser to `http://localhost:8501` to access the dashboard.
 
 ## Tools Overview
 
