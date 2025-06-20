@@ -7,6 +7,9 @@ from scipy.stats import norm
 from scipy.optimize import brentq
 from datetime import datetime, timedelta
 
+__author__ = "https://github.com/theredplanetsings"
+__date__ = "20/6/2025"
+
 st.set_page_config(page_title="Options & Volatility Dashboard", layout="wide")
 
 def black_scholes_call(S, K, T, r, sigma):
