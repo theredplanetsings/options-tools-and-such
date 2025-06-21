@@ -2,18 +2,18 @@
 
 # Quick deployment script for Options Dashboard
 
-echo "🚀 Options Dashboard Deployment Helper"
+echo "Options Dashboard Deployment Helper"
 echo "======================================"
 
 # Check if git is installed
 if ! command -v git &> /dev/null; then
-    echo "❌ Git is not installed. Please install Git first."
+    echo "Git is not installed. Please install Git first."
     exit 1
 fi
 
 # Initialize git repository if not already done
 if [ ! -d ".git" ]; then
-    echo "📝 Initializing Git repository..."
+    echo "Initializing Git repository..."
     git init
     git add .
     git commit -m "Initial commit: Options Dashboard"
@@ -31,7 +31,7 @@ read -p "Enter your choice (1-3): " choice
 case $choice in
     1)
         echo ""
-        echo "🌟 Streamlit Community Cloud Deployment"
+        echo "Streamlit Community Cloud Deployment"
         echo "======================================"
         echo "1. Push this code to GitHub:"
         echo "   - Create a new repository on GitHub"
@@ -45,10 +45,10 @@ case $choice in
         ;;
     2)
         echo ""
-        echo "🔥 Heroku Deployment"
+        echo "Heroku Deployment"
         echo "==================="
         if ! command -v heroku &> /dev/null; then
-            echo "❌ Heroku CLI not found. Install from: https://devcenter.heroku.com/articles/heroku-cli"
+            echo "Heroku CLI not found. Install from: https://devcenter.heroku.com/articles/heroku-cli"
             exit 1
         fi
         
@@ -60,11 +60,11 @@ case $choice in
         echo "Deploying to Heroku..."
         git push heroku main
         
-        echo "✅ App deployed! Visit: https://$app_name.herokuapp.com"
+        echo "App deployed! Visit: https://$app_name.herokuapp.com"
         ;;
     3)
         echo ""
-        echo "🚂 Railway Deployment"
+        echo "Railway Deployment"
         echo "===================="
         echo "1. Visit: https://railway.app"
         echo "2. Connect your GitHub account"
@@ -72,6 +72,6 @@ case $choice in
         echo "4. Railway will auto-deploy your app!"
         ;;
     *)
-        echo "❌ Invalid choice. Please run the script again."
+        echo "Invalid choice. Please run the script again."
         ;;
 esac
