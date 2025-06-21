@@ -2,11 +2,9 @@
 
 A professional Python webapp for options pricing and volatility analysis.
 
-## 🚀 Live Demo
+## Live Demo
 
 **[Access the live app here!](https://optionsandsuch.streamlit.app)** 
-
-🎉 **Now live and accessible to anyone worldwide!**
 
 ## Features
 
@@ -16,11 +14,11 @@ A professional Python webapp for options pricing and volatility analysis.
 
 ## 🌐 Deployment Status
 
-✅ **Successfully deployed on Streamlit Community Cloud!**  
-🌍 **Live URL**: [optionsandsuch.streamlit.app](https://optionsandsuch.streamlit.app)  
-🎯 **Status**: Ready for public use
+**Successfully deployed on Streamlit Community Cloud!**  
+**Live URL**: [optionsandsuch.streamlit.app](https://optionsandsuch.streamlit.app)  
+**Status**: Ready for public use
 
-## 💻 Local Development
+## Local Development
 
 ### Installation
 
