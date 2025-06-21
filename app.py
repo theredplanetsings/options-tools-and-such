@@ -67,7 +67,7 @@ def option_greeks(S, K, T, r, sigma, option_type='call'):
     return {'delta': delta, 'gamma': gamma, 'theta': theta, 'vega': vega}
 
 def black_scholes_calculator():
-    st.header("📊 Black-Scholes Option Pricing Calculator")
+    st.header("Black-Scholes Option Pricing Calculator")
     
     col1, col2 = st.columns(2)
     
@@ -96,7 +96,7 @@ def black_scholes_calculator():
         st.metric("Vega", f"{greeks['vega']:.4f}")
 
 def implied_volatility_calculator():
-    st.header("🔍 Implied Volatility Calculator")
+    st.header("Implied Volatility Calculator")
     
     col1, col2 = st.columns(2)
     
@@ -188,7 +188,7 @@ def volatility_surface():
 
 # Main app
 def main():
-    st.title("🎯 Options & Volatility Dashboard")
+    st.title("Options & Volatility Dashboard")
     st.markdown("Professional options trading and volatility analysis tools")
     
     # Sidebar navigation
