@@ -12,7 +12,7 @@ A professional Python webapp for options pricing and volatility analysis.
 2. **Implied Volatility Calculator**: Extract implied volatility from market prices  
 3. **Volatility Surface**: Visualize 3D volatility surfaces
 
-## 🌐 Deployment Status
+## Status
 
 **Successfully deployed on Streamlit Community Cloud!**  
 **Live URL**: [optionsandsuch.streamlit.app](https://optionsandsuch.streamlit.app)  
