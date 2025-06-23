@@ -4,7 +4,7 @@ A professional Python webapp for options pricing and volatility analysis.
 
 ## Live Demo
 
-**[Access the live app here!](https://optionsandsuch.streamlit.app)** 
+**[Access the live app here](https://optionsandsuch.streamlit.app)** 
 
 ## Features
 
