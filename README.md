@@ -1,6 +1,6 @@
 # Options & Volatility Dashboard
 
-A professional Python webapp for options pricing and volatility analysis.
+Streamlit Python webapp for options pricing and volatility analysis and such
 
 ## Live Demo
 
