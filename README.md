@@ -2,9 +2,9 @@
 
 Streamlit Python webapp for options pricing and volatility analysis and such
 
-## Live Demo
+## Live page
 
-**[Access the live app here](https://optionsandsuch.streamlit.app)** 
+**[Access the app here](https://optionsandsuch.streamlit.app)** 
 
 ## Features
 
